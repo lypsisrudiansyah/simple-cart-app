@@ -8,6 +8,6 @@ class Cart with ChangeNotifier {
   set quantity(int value)
   {
     _quantity = value;
-    notifyListeners();
+    notifyListeners(); 
   }
 }
